@@ -1,3 +1,14 @@
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./main.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
