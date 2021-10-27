@@ -4,5 +4,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+}
+
+#categories {
+    display: flex;
+    align-items: center;
     
+}
+
+.img__categories {
+    width: 20%;
 }
