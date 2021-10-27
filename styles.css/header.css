@@ -16,13 +16,47 @@
     width: 40%;
 }
 
-#logo-menu{
+#menu-header{
     width: 100%;
     display: flex;
     justify-content: flex-end;
     padding-right: 15%;
 }
 
+ul{
+    list-style: none;
+  }
+
+  .menu-categories li>a{
+    background-color: #3E065F;
+    color: #E2A826;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  
+  .menu-categories li>a:hover{
+    color: #E2A826;
+    background-color: #700B97;
+  }
+
+  .menu-categories>li{
+    float: left;
+    text-align:center
+  }
+
+  .menu-categories>li>ul{
+    display: none;
+  }
+
+  .menu-categories>li:hover>ul {
+    display:block;
+  }
+
+/*
+------------------------------------------------
+*/
 .button-cart{
     width: 2.7em;
     height: 2.7em;
