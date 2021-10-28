@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 
 }
 
@@ -23,8 +24,8 @@ body {
 .img__categories:hover{
 cursor: pointer;
 border-radius:5%;
-box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+box-shadow: 0px 0px 15px 15px silver;
+-webkit-box-shadow: 0px 0px 15px 15px silver;
 transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 }
@@ -40,34 +41,41 @@ transform: rotate(360deg);
     align-items: center;
 }
 .newsletter{
-    color: goldenrod;
+    color:white;
     text-align: center;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }
-.email_box{
+#email{
     width: 35%;
-    opacity: 0,3;
+    opacity: 0.3;
+    border-radius: 35em;
+    color: white; 
 }
+
+::placeholder{
+    color:white;
+}
+
 .subscribe_button{
     width: 20%;
+    margin-left: 3%;
     text-decoration:none;
-    font-size: 20px;
+    justify-content: space-around;
     color:#333333;
-    margin-left: 40px;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left:40px;
-    padding-right:40px;
     background-color:goldenrod;
     border-color: #d8d8d8;
     border-width: 3px;
     border-style: solid;
-    border-radius:35px;
+    border-radius:35em;
     opacity: 0.7;
+   
 }
 #box_button_container{
+display: flex;
+justify-content: center;
+align-items: center;
 width: 40%;
 margin-bottom: 3%;
 

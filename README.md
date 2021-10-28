@@ -4,17 +4,11 @@ Creación de una web estática para una productora que quiere distribuir las pel
 
 ## Pre-requirement
 
-        - node.js & npm
 
 ## Dependencies
 
-        - jest
-        - @babel/core
-        - @babel/preset-env
 
 ## Installation
-
-        >> npm install
 
 
 ### Problem Description
