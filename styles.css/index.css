@@ -13,4 +13,6 @@ body {
     background-size: cover;
     margin: 0px; 
     font-family: Arial, Helvetica, sans-serif;
+    cursor: url(../img/cursor-wand.png), url(.cur), pointer;
 }
+
