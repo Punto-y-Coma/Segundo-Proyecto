@@ -22,12 +22,17 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
-
+  align-items:flex-start;
+  margin-right: 7em;
 }
 
 .menu-categories{
     width: 100%;
+}
+
+.snitch-img{
+  width: 30%;
+  height: 30%;
 }
 
 ul{
@@ -38,7 +43,6 @@ ul{
   .menu-categories li>a{
     background-color: #24132F;
     color: #E2A826;
-    padding: 5px;
     display: block;
     text-decoration: none;
     min-width: 100px;
@@ -53,6 +57,7 @@ ul{
     float: left;
     text-align:center;
     justify-content: center;
+    height: 3em;
   }
 
   .menu-categories>li>ul{
