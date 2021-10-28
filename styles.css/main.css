@@ -47,12 +47,12 @@ transform: rotate(360deg);
     font-size: 20px;
     }
 .email_box{
-    width: 15%;
-    
+    width: 65%;
 }
 .subscribe_button{
-    width: 5%;
-    
+    width: 25%;
+}
+#box_button_container{
+flex-direction: column-reverse;
 
-    
-    }
+}
