@@ -9,11 +9,16 @@
 
 #logo-header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .logo{
     width: 40%;
+    justify-content: space-around;
+}
+
+.logo-img{
+  width: 100%;
 }
 
 #menu-header{
@@ -58,11 +63,18 @@ ul{
 ------------------------------------------------
 */
 .button-cart{
-    width: 2.7em;
-    height: 2.7em;
+    width: 3em;
+    height: 3em;
     background-color: #24132F ;
     background-image: url(../img/carrito.png);
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 3px;
     border-radius: 5px;
     align-items: center;
+    margin-left: 5px;
+}
+
+.button-cart:hover{
+  background-color: #700B97;
 }
