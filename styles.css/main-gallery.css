@@ -1,3 +1,39 @@
-h1 {
-    
+.itemscontainer {
+    padding-top: 5.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.items {
+    padding-top: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+    height: 15em;
+    background-color:darkgreen;
+    justify-content: center;
+
+}
+
+.itemtitle {
+    color: goldenrod;
+    text-align: center;
+
+}
+
+.price {
+    color: goldenrod;
+    text-align: center;
+}
+
+.photo {
+    width: 10em;
+    height: 10em;
+    padding-bottom: 1em;
 }
