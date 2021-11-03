@@ -3,13 +3,11 @@
     margin-bottom: 15%;
     display: flex;
     justify-content: space-around;
-
 }
 
 .img__categories {
     width: 20%;
 }
-
 
 .img__categories:hover{
 cursor: pointer;
@@ -26,12 +24,14 @@ transform: rotate(360deg);
     z-index: -100;
     box-shadow: 0px 0px 30px 5px silver;
 }
+
 #newsletter_container{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .newsletter{
     color:white;
     text-align: center;
@@ -39,6 +39,7 @@ transform: rotate(360deg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }
+
 #email{
     width: 35%;
     opacity: 0.3;
@@ -46,9 +47,9 @@ transform: rotate(360deg);
     color: white; 
 }
 
-::placeholder{
-    color:white;
-}
+input::placeholder{
+    color: white;
+  }
 
 .subscribe_button{
     width: 20%;
@@ -62,14 +63,13 @@ transform: rotate(360deg);
     border-style: solid;
     border-radius:35em;
     opacity: 0.7;
-   
+    font-size: 0.8em;
 }
+
 #box_button_container{
 display: flex;
 justify-content: center;
 align-items: center;
 width: 40%;
 margin-bottom: 3%;
-
 }
-
