@@ -1,0 +1,76 @@
+#categories {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img__categories {
+    width: 20%;
+}
+
+
+.img__categories:hover{
+cursor: pointer;
+border-radius:5%;
+box-shadow: 0px 0px 15px 15px silver;
+-webkit-box-shadow: 0px 0px 15px 15px silver;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+.banner{
+    max-width: 100%;
+    height: auto;
+    z-index: -100;
+    box-shadow: 0px 0px 30px 5px silver;
+}
+#newsletter_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter{
+    color:white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;  
+    }
+
+#email{
+    width: 35%;
+    opacity: 0.3;
+    border-radius: 35em;
+    color: white; 
+}
+
+input::placeholder{
+    color: white;
+  }
+
+.subscribe_button{
+    width: 20%;
+    margin-left: 3%;
+    text-decoration:none;
+    justify-content: space-around;
+    color:#333333;
+    background-color:goldenrod;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35em;
+    opacity: 0.7;
+    font-size: 0.8em;
+}
+
+#box_button_container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40%;
+margin-bottom: 3%;
+}
+
