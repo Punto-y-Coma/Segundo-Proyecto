@@ -4,20 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Segundo Proyecto</title>
+    <link rel="stylesheet" href="./styles.css/index.css">
 </head>
 
 <body>
-    <head>
+    <header>
+        <section id="header">
+            <div id="logo-header">
+                <a href="index.html" class="logo" ><img class="logo-img" src="./img/Logo_header.png" alt="Logo cabecera">
+            </div>
+            <div class="logo-menu">
+                <nav>
+                    <ul class="menu-categories">
+                        <li><a href="#">Menu<img class="snitch-img" src="./img/snitchMenu.png"></a>
+                            <ul>
+                                <li class="menu-subcategories"><a href="#">Home</a></li>
+                                <li class="menu-subcategories"><a href="#">Slytherin</a></li>
+                                <li class="menu-subcategories"><a href="#">Gryffindor</a></li>
+                                <li class="menu-subcategories"><a href="#">Hufflepuff</a></li>
+                                <li class="menu-subcategories"><a href="#">Ravenclaw</a></li>
+                            </ul>  
+                        </li>
+                    </ul>
+                </nav>
+                <input class="button-cart" type="button" img src="./img/carrito.png">
 
-    </head>
+            </div>
+
+        </section>
+    </header>
 
     <main>
+     <div>
+        <img class="banner" src="./img/banner_principal.jpeg">
+     </div>
+
+      <div id="categories">
+        <img class="img__categories" src="/img/Slytherin_category.png" alt="">  
+        <img class="img__categories" src="/img/Gryffindor_category.png" alt="">
+        <img class="img__categories" src="/img/Hufflepuff_category.png" alt="">
+        <img class="img__categories" src="/img/Ravenclaw_category.png" alt="">
+      </div>
+
+
+      <div id="newsletter_container">
+        <p class="newsletter">Subscribe for news and offers</p>
+        <div id="box_button_container">
+         <input id="email" type="email" placeholder="Email">
+         <button onclick="Submit()" class="subscribe_button" type="button">Submit</button>
+         <script src="./index.js"></script>
+        </div>
+     </div>
 
     </main>
 
+
     <footer>
-        
+     <p class="copyright">CopyRight &#169 HarryPotterMerch</p>
     </footer>
+    
 </body>
 </html>
