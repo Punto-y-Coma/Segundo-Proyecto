@@ -33,8 +33,7 @@
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
 }
-
-.product>p:hover{
+.product-name:hover{
     display:block;
     text-align: center;
     font-size: 4em;
