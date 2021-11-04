@@ -1,20 +1,20 @@
 #product {
     display: flex;
     align-content: row;
-    margin-top: 5em;
+
 }
 
 #product__img--container {
+    
     display: flex;
     flex-direction: column;
-    margin-left: 7em;
+    margin-left: 0%;
+    
     
     
 }
 
-#product__imgs{
-    
-}
+
 
 #product__img--front {
     margin-top: 5%;
@@ -137,9 +137,16 @@
 }
 
 #cart__button--img {
-
     width: 1.5em;
     height: 1.5em;
-    
+
+}
+
+#price {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1em;
 
 }
