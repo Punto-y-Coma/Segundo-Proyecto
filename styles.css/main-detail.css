@@ -1,0 +1,48 @@
+#product {
+    display: flex
+    align-conte
+}
+
+#product__img--container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#product__img--front {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 30%;
+}
+
+
+#product__img--reverse {
+      width: 10%;
+      border: solid goldenrod;
+      
+}
+
+#product__img--detail {
+    width: 10%;
+    border: solid goldenrod;
+}
+
+#product__info--text {
+    color: white;
+
+}
+
+#product__info--text {
+    display: flex;
+    
+    justify-content: flex-end;
+    
+}
+
+#product__info {
+    display: flex;
+    justify-content: flex-end;
+    align-self: baseline;
+
+}
