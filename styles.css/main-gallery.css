@@ -49,3 +49,11 @@
     width: 10em;
     height: 10em;
 }
+
+.back-btn {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    color: goldenrod;
+    margin: 2em 3em 0em 0em;
+}
