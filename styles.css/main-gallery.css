@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .items {
@@ -16,18 +15,32 @@
     align-items: center;
     width: 15em;
     height: 15em;
-    background-color:darkgreen;
+    background-color: rgba(255, 255, 255, 0.15);
     justify-content: center;
+    border-radius: 7%;
+}
 
+.items:hover{
+    cursor: pointer;
+    border-radius:5%;
+    box-shadow: 0em 0em 1em 1em silver;
+    -webkit-box-shadow: 0em 0em 0.8em 0.2em silver;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
 .itemtitle {
+    font-size: 1.1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: goldenrod;
     text-align: center;
 
 }
 
 .price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.08em;
+    padding-top: 0.5em;
     color: goldenrod;
     text-align: center;
 }
@@ -35,5 +48,4 @@
 .photo {
     width: 10em;
     height: 10em;
-    padding-bottom: 1em;
 }
