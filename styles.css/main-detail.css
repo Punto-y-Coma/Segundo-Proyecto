@@ -9,6 +9,11 @@
     flex-direction: column;
     margin-left: 7em;
     
+    
+}
+
+#product__imgs{
+    
 }
 
 #product__img--front {
@@ -18,36 +23,25 @@
     width: 50%;
 }
 
-
-#product__img--reverse {
-      width: 10%;
-      border: solid goldenrod;
-      border-radius: 15px;
-      
-}
-
 #product__img--detail {
+    padding: 0.5em;
     width: 10%;
-    border: solid goldenrod;
     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 
 #product__info--text {
     color: white;
+    margin-bottom: 5%;
+    font-weight: bold;
 
 }
 
-/*#product__info--text {
-    display: flex;
-    justify-content: flex-end;
-    
-}*/
 
 #product__info {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; 
     margin-right: 7em;
     width: 30%;
 }
@@ -96,42 +90,56 @@
 }
 
 #like__button {
+    
+    justify-content: space-around;
+    font-size: 1em;;
+    margin: 5%;
     cursor: pointer;
     width: 50%;
     height: 3em;
     background-color: indigo;
-    border:none;
-    color: white
+    border: solid;
+    border-color: goldenrod;
+    color: white;
+    font-weight: bold;
 }
 
 #like__button:hover {
     cursor: pointer;
     border-radius:5%;
-    box-shadow: 0px 0px 15px 15px silver;
-    -webkit-box-shadow: 0px 0px 15px 15px silver;
+    box-shadow: 0px 0px 20px 2px silver;
+    
 }
 
 #cart__button {
+    align-items: center;
+    text-align: center;
+    font-size: 1em;;
+    margin: 5%;
     width: 50%;
     height: 3em;
     background-color: indigo;
-    border:none;
-    color: white
+    border: solid;
+    border-color: goldenrod;
+    color: white;
+    font-weight: bold;
 }
 
 #cart__button:hover {
     cursor: pointer;
     border-radius:5%;
-    box-shadow: 0px 0px 15px 15px silver;
-    -webkit-box-shadow: 0px 0px 15px 15px silver;
+    box-shadow: 0px 0px 20px 2px silver;  
 }
 
 #like__button--img {
-    width: 15%;
-    height: 70%;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 #cart__button--img {
-    width: 15%;
+
+    width: 1.5em;
+    height: 1.5em;
+    
 
 }
