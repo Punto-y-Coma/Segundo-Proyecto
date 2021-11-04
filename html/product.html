@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css/index.css">
+    <link rel="stylesheet" href="../styles.css/index.css">
+    <link rel="stylesheet" href="../styles.css/main-detail.css">
     <title>Product detail</title>
 </head>
+
+
 <body>
+
+    <header>
+        <section id="header">
+            <div id="logo-header">
+                <a href="index.html" class="logo" ><img class="logo-img" src="../assets/Logo_header.png" alt="Logo cabecera"></a>
+            </div>
+            <div class="logo-menu">
+                <nav>
+                    <ul class="menu-categories">
+                        <li><a href="#">Menu<img class="snitch-img" src="../assets/snitchMenu.png"></a>
+                            <ul>
+                                <li class="menu-subcategories"><a href="#">Home</a></li>
+                                <li class="menu-subcategories"><a href="#">Slytherin</a></li>
+                                <li class="menu-subcategories"><a href="#">Gryffindor</a></li>
+                                <li class="menu-subcategories"><a href="#">Hufflepuff</a></li>
+                                <li class="menu-subcategories"><a href="#">Ravenclaw</a></li>
+                            </ul>  
+                        </li>
+                    </ul>
+                </nav>
+                <input class="button-cart" type="button" img src="../assets/carrito.png">
+
+            </div>
+
+        </section>
+    </header>
+    <main>
+    <section id="product"> 
+        <div id="product__img--container">
+            <img id="product__img--front" src="../assets/product/scarf.png" alt="scarf griffindor">
+            <div id="product__imgs">
+
+             <img id="product__img--detail" src="../assets/product/sacarf-reverse.png" alt="">
+
+             <img id="product__img--detail" src="../assets/product/scarf-detail.png" alt="">
+            </div>
+        </div>
+
+        <div id="product__info">
+            <p id="product__info--text">
+                When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into elect ved not only five centuries, but also the leap into elect
+            </p> 
+            <button id="like__button">Like <img id="like__button--img" src="../assets/product/rayo.png"></button>   
+            <button id="cart__button">Add to Cart <img id="cart__button--img" src="../assets/product/carrito.png" alt=""></button>
+        </div>
+    </section>      
     
+    
+    <div class= "related-products">
+        <div class= "products">
+            <img class="product-img" src="../assets/gryffindor_hat.png" alt="gryffindor hat">
+            <p class="product-name">Gryffindor Hat</p>
+        </div>
+        <div class= "products">
+            <img class="product-img" src="../assets/robe.png" alt="gryffindor hat">
+            <p class="product-name">Gryffindor Robe</p>
+        </div>
+        <div class= "products">
+            <img class="product-img" src="../assets/gryffindor_pin.png" alt="gryffindor hat">
+            <p class="product-name">Gryffindor Pin</p>
+        </div>
+        <div class= "products">
+            <img class="product-img" src="../assets/notebook.png" alt="gryffindor hat">
+            <p class="product-name">Gryffindor Notebook</p>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <p class="copyright">CopyRight &#169 HarryPotterMerch</p>
+       </footer>
 </body>
+
 </html>

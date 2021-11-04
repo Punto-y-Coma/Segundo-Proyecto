@@ -1,0 +1,145 @@
+#product {
+    display: flex;
+    align-content: row;
+    margin-top: 5em;
+}
+
+#product__img--container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7em;
+    
+    
+}
+
+#product__imgs{
+    
+}
+
+#product__img--front {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+#product__img--detail {
+    padding: 0.5em;
+    width: 10%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#product__info--text {
+    color: white;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+}
+
+
+#product__info {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 7em;
+    width: 30%;
+}
+
+.related-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 5em 0em 5em 0em;   
+}
+
+.products{
+    width: 16em;
+    height: 16em;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.product-img{
+    width: 14em;
+    height: 14em;
+}
+
+.product-name{
+    color: #E2A826;
+    display: none;
+}
+
+.products:hover{
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+.product-name:hover{
+    position: absolute;
+    display:block;
+    text-align: center;
+    font-size: 4em;
+    z-index: 2;
+}
+
+#like__button {
+    
+    justify-content: space-around;
+    font-size: 1em;;
+    margin: 5%;
+    cursor: pointer;
+    width: 50%;
+    height: 3em;
+    background-color: indigo;
+    border: solid;
+    border-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+#like__button:hover {
+    cursor: pointer;
+    border-radius:5%;
+    box-shadow: 0px 0px 20px 2px silver;
+    
+}
+
+#cart__button {
+    align-items: center;
+    text-align: center;
+    font-size: 1em;;
+    margin: 5%;
+    width: 50%;
+    height: 3em;
+    background-color: indigo;
+    border: solid;
+    border-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+#cart__button:hover {
+    cursor: pointer;
+    border-radius:5%;
+    box-shadow: 0px 0px 20px 2px silver;  
+}
+
+#like__button--img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#cart__button--img {
+
+    width: 1.5em;
+    height: 1.5em;
+    
+
+}
